@@ -120,3 +120,45 @@
 2023-08-01 15:12:37,812 [main] INFO Logger - Entering T Shirts in Search Box on Homepage.
 2023-08-01 15:12:40,259 [main] INFO Logger - Clicking on Search Button
 2023-08-01 15:12:40,353 [main] INFO Logger - Search Results are Visible for T Shirts</b>"
+2023-08-01 16:53:10,948 [main] INFO Logger - Initializing extent report
+2023-08-01 16:53:11,631 [main] INFO Logger - Reading data from property file.
+2023-08-01 16:53:13,902 [main] INFO Logger - Chrome Browser started.
+2023-08-01 16:53:16,212 [main] INFO Logger - Chrome Browser started.
+2023-08-01 16:53:17,524 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-01 16:53:18,877 [main] INFO Logger - Chrome Browser started.
+2023-08-01 17:04:53,117 [main] INFO Logger - Initializing extent report
+2023-08-01 17:04:53,894 [main] INFO Logger - Reading data from property file.
+2023-08-01 17:04:56,199 [main] INFO Logger - Chrome Browser started.
+2023-08-01 17:04:59,157 [main] INFO Logger - Chrome Browser started.
+2023-08-01 17:05:02,189 [main] INFO Logger - Chrome Browser started.
+2023-08-01 21:18:31,529 [main] INFO Logger - Initializing extent report
+2023-08-01 21:18:32,241 [main] INFO Logger - Reading data from property file.
+2023-08-01 21:18:34,355 [main] INFO Logger - Chrome Browser started.
+2023-08-01 21:18:36,940 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-01 21:18:37,069 [main] INFO Logger - Maximizing the browser window.
+2023-08-01 21:18:39,629 [main] INFO Logger - CLicked on Create an account link.
+2023-08-01 21:18:39,852 [main] INFO Logger - Entering firstname as :Automation
+2023-08-01 21:18:39,923 [main] INFO Logger - Entering lastname as :User
+2023-08-01 21:18:39,995 [main] INFO Logger - Entering Email as : aARWs@gmail.com
+2023-08-01 21:18:40,114 [main] INFO Logger - Entering Password as : Password@123
+2023-08-01 21:18:40,176 [main] INFO Logger - Entering Confirm Password as :Password@123
+2023-08-01 21:18:43,073 [main] INFO Logger - Clicked on Create an Account button
+2023-08-01 21:18:47,087 [main] INFO Logger - Chrome Browser started.
+2023-08-01 21:18:49,471 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-01 21:18:49,621 [main] INFO Logger - Maximizing the browser window.
+2023-08-01 21:18:49,621 [main] INFO Logger - Navigated to Home Page
+2023-08-01 21:18:49,698 [main] INFO Logger - Logo is displayed
+2023-08-01 21:18:49,748 [main] INFO Logger - Sign In link is displayed
+2023-08-01 21:18:49,781 [main] INFO Logger - Create Account Link is displayed
+2023-08-01 21:18:49,797 [main] INFO Logger - Dropdown for Women Section is displayed
+2023-08-01 21:18:49,845 [main] INFO Logger - Dropdown for Men Section is displayed
+2023-08-01 21:18:49,901 [main] INFO Logger - Dropdown for Gear Section is displayed
+2023-08-01 21:18:49,941 [main] INFO Logger - Dropdown for Training Section is displayed
+2023-08-01 21:18:49,988 [main] INFO Logger - Dropdown for Sale Section is displayed
+2023-08-01 21:18:51,805 [main] INFO Logger - Chrome Browser started.
+2023-08-01 21:18:54,268 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-01 21:18:54,399 [main] INFO Logger - Maximizing the browser window.
+2023-08-01 21:18:54,399 [main] INFO Logger - Navigated to Home Page
+2023-08-01 21:18:54,514 [main] INFO Logger - Entering T Shirts in Search Box on Homepage.
+2023-08-01 21:18:57,269 [main] INFO Logger - Clicking on Search Button
+2023-08-01 21:18:57,312 [main] INFO Logger - Search Results are Visible for T Shirts</b>"
