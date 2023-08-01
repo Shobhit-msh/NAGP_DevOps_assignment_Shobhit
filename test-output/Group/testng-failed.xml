@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Group]">
+  <test parallel="none" name="GroupTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.PlaceOrder">
+        <methods>
+          <include name="startReporter"/>
+          <include name="place_an_order" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.PlaceOrder -->
+      <class name="tests.SignIn">
+        <methods>
+          <include name="sign_up" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignIn -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [Group] -->

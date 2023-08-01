@@ -1,0 +1,13 @@
+base\BrowserLaunch.class
+Excel.class
+pages\HomePage.class
+util\Utility.class
+tests\SignIn.class
+tests\PlaceOrder.class
+tests\Shopping.class
+tests\Home.class
+pages\PaymentPage.class
+util\ExcelDataProvider.class
+pages\ShoppingPage.class
+pages\SigninPage.class
+util\ExcelUtils.class

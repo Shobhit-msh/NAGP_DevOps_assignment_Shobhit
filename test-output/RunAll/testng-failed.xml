@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [RunAll]">
+  <test parallel="none" name="RunAllTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.PlaceOrder">
+        <methods>
+          <include name="place_an_order" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.PlaceOrder -->
+      <class name="tests.SignIn">
+        <methods>
+          <include name="sign_up" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignIn -->
+      <class name="tests.Home">
+        <methods>
+          <include name="homepage_element_validation"/>
+        </methods>
+      </class> <!-- tests.Home -->
+      <class name="tests.Shopping">
+        <methods>
+          <include name="add_yoga_product"/>
+        </methods>
+      </class> <!-- tests.Shopping -->
+    </classes>
+  </test> <!-- RunAllTest(failed) -->
+</suite> <!-- Failed suite [RunAll] -->

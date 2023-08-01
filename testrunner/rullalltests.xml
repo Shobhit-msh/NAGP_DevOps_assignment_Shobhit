@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RunAll">
+  <test name="RunAllTest">
+    <classes>
+      <class name="tests.Home"/>
+      <class name="tests.SignIn"/>
+      <class name="tests.Shopping"/>
+      <class name="tests.PlaceOrder"/>
+    </classes>
+  </test> <!-- RunAllTest -->
+</suite> <!-- RunAll -->

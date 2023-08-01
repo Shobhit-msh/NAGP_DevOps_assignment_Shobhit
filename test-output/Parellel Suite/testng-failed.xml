@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Parellel Suite]">
+  <test parallel="methods" name="SignIn(failed)">
+    <classes>
+      <class name="tests.SignIn">
+        <methods>
+          <include name="setup"/>
+          <include name="startReporter"/>
+          <include name="check_tc_status"/>
+          <include name="invalid_sign_in" invocation-numbers="0"/>
+          <include name="endReporter"/>
+        </methods>
+      </class> <!-- tests.SignIn -->
+    </classes>
+  </test> <!-- SignIn(failed) -->
+</suite> <!-- Failed suite [Parellel Suite] -->
