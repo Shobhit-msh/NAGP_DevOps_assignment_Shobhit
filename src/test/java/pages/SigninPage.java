@@ -19,7 +19,6 @@ public class SigninPage
 {
 	
 	WebDriver driver;
-	ExtentTest tests;
 	Logger logger;
 	
 	@FindBy(xpath = "//header//a[(contains(text(),'Sign In'))]")
@@ -69,63 +68,50 @@ public class SigninPage
 	
 	
 	
-	public SigninPage(WebDriver driver,ExtentTest tests,Logger logger)
+	public SigninPage(WebDriver driver,Logger logger)
 	{
-		this.driver=driver;		
-		this.tests=tests;
+		this.driver=driver;	
 		this.logger=logger;
 		PageFactory.initElements(driver, this);
+		System.out.print("homepage");
 	}
 	
 	
 	public void validate_invalid_signin(String username, String password) throws IOException {
 		logger.info("Navigating to Sign In Page");
-		tests.info("Navigating to Sign In Page");
 		signin.click();
 		logger.info("Clicked On sign in link.");
 		email_txtbox.sendKeys(username);
 		logger.info("Entering email as:"+username+"");
-		tests.info("Entering email as: <b>"+username+"</b>");
 		password_txtbox.sendKeys(password);
 		logger.info("Entering password as:"+password+"");
-		tests.info("Entering password as: <b>"+password+"</b>");
 		signin_btn.click();
 		logger.info("Clicking on Sign in button");
-		tests.info("Clicking on Sign in button");
 		Utility.wait_for_element_to_visible(driver, 10, invalid_captcha);
 		invalid_captcha.isDisplayed();
-		tests.pass("Invalid Captcha Error Message Displayed", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"Invalid_sign_in")).build());
-		
+			
 	}
 	
 	public void create_account(String firstName,String lastName,String password) throws IOException {
 		
 		create_an_account.click();
-		tests.info("CLicked on Create an account link.");
 		logger.info("CLicked on Create an account link.");
 		Utility.wait_for_element_to_visible(driver, 10, firstname_txtbox);
 		firstname_txtbox.sendKeys(firstName);
 		logger.info("Entering firstname as :"+firstName+"");
-		tests.info("Entering firstname as : <b>"+firstName+"</b>");
 		lastname_txtbox.sendKeys(lastName);
 		logger.info("Entering lastname as :"+lastName+"");
-		tests.info("Entering lastname as : <b>"+lastName+"</b>");
 		String email=generateRandomString()+"@gmail.com";
 		email_input_txtbox.sendKeys(email);
 		logger.info("Entering Email as : "+email+"");
-		tests.info("Entering Email as : <b>"+email+"</b>");
 		password_input_txtbox.sendKeys(password);
 		logger.info("Entering Password as : "+password+"");
-		tests.info("Entering Password as : <b>"+password+"</b>");
 		confirm_password_txtbox.sendKeys(password);
 		logger.info("Entering Confirm Password as :"+password+"");
-		tests.info("Entering Confirm Password as : <b>"+password+"</b>");
 		create_account_btn.click();
 		logger.info("Clicked on Create an Account button");
-		tests.info("Clicked on Create an Account button");
 		Utility.wait_for_element_to_visible(driver, 10, successful_account_creation_msg);
 		successful_account_creation_msg.isDisplayed();
-		tests.pass("Account Created Sucessfully", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"sign_up")).build());
 		arrow_btn.click();
 		sign_out.click();
 	}

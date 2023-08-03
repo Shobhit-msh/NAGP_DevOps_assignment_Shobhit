@@ -17,7 +17,6 @@ import util.Utility;
 public class HomePage
 {
 	WebDriver driver;
-	ExtentTest tests;
 	Logger logger;
 	
 	@FindBy(xpath="//a[@aria-label='store logo']")
@@ -50,60 +49,45 @@ public class HomePage
 	WebElement search_btn;
 	
 	
-	public HomePage(WebDriver driver,ExtentTest tests,Logger logger)
+	public HomePage(WebDriver driver,Logger logger)
 	{
-		this.driver=driver;		
-		this.tests=tests;
+		this.driver=driver;	
 		this.logger=logger;
 		PageFactory.initElements(driver, this);
+		
 	}
 	
 	
 	public void home_page_validation() {
 		//validating that all the buttons and links visible on homepage
 		logger.info("Navigated to Home Page");
-		tests.info("Navigated to Home Page");
 		logo.isDisplayed();
 		logger.info("Logo is displayed");
-		tests.info("Logo is displayed");
 		signin.isDisplayed();
 		logger.info("Sign In link is displayed");
-		tests.info("Sign In link is displayed");
 		create_account.isDisplayed();
 		logger.info("Create Account Link is displayed");
-		tests.info("Create Account Link is displayed");
 		women_drpdwn.isDisplayed();
 		logger.info("Dropdown for Women Section is displayed");
-		tests.info("Dropdown for Women Section is displayed");
 		men_drpdwn.isDisplayed();
 		logger.info("Dropdown for Men Section is displayed");
-		tests.info("Dropdown for Men Section is displayed");
 		gear_drpdwn.isDisplayed();
 		logger.info("Dropdown for Gear Section is displayed");
-		tests.info("Dropdown for Gear Section is displayed");
 		training_drpdwn.isDisplayed();
 		logger.info("Dropdown for Training Section is displayed");
-		tests.info("Dropdown for Training Section is displayed");
 		sale_drpdwn.isDisplayed();
 		logger.info("Dropdown for Sale Section is displayed");
-		tests.info("Dropdown for Sale Section is displayed");
-		tests.pass("HomePage Validation Passed", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"home_page")).build());
 		
 	}
 	
 	public void home_page_search_validation(String text) throws IOException {
 		logger.info("Navigated to Home Page");
-		tests.info("Navigated to Home Page");
 		search_box.sendKeys(text);
 		logger.info("Entering "+text+" in Search Box on Homepage.");
-		tests.info("Entering <b>"+text+"</b> in Search Box on Homepage.");
 		search_btn.click();
 		logger.info("Clicking on Search Button");
-		tests.info("Clicking on Search Button");
 		Utility.wait_for_element_to_visible(driver, 0, driver.findElement(By.xpath("//h1/span[text()=\"Search results for: '"+text+"'\"]")));
-		tests.info("Search Results are Visible for <b>"+text+"</b>");
 		logger.info("Search Results are Visible for "+text+"</b>\"");
-		tests.pass("HomePage Validation Passed", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"home_page_search")).build());
 		
 	}
 	

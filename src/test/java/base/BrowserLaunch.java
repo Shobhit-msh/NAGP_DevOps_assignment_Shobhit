@@ -42,11 +42,6 @@ public class BrowserLaunch {
 	public static WebDriver driver;
 	public static FileReader fr;
 	public static Properties prop = new Properties();
-	public static ExtentReports reports;
-	public static ExtentSparkReporter sparkReporter;
-	public static ExtentTest tests;
-	public String reportpath;
-	public String screenshotpath;
 	public String user_dir;
 	public static Logger logger;
 	
@@ -57,24 +52,6 @@ public class BrowserLaunch {
 		PropertyConfigurator.configure("Log4j.properties");
 		logger.info("Initializing extent report");
 		user_dir=System.getProperty("user.dir");		
-		//Moving last report file to Archived Test Results from Current Test Results
-		File currentresults=new File (user_dir+"/Reports/Current Test Results");
-		File archiveresults=new File (user_dir+"/Reports/Archive Test Results");
-		moveFilesFromFolders(currentresults,archiveresults);
-		SimpleDateFormat sdf = new SimpleDateFormat("dd_MM_yyyy_HHmmss");
-        Date currentDate = new Date();
-        String dateStr = sdf.format(currentDate);	
-		reportpath=user_dir+"/Reports/Current Test Results/ExtentReport_"+dateStr;
-		sparkReporter = new ExtentSparkReporter(reportpath);
-		reports = new ExtentReports();
-		reports.attachReporter(sparkReporter);
-		//add configuration in reports
-		sparkReporter.config().setDocumentTitle("Extent Report");
-		sparkReporter.config().setReportName("NAGP Selenium Assignment Report");
-		sparkReporter.config().setTheme(Theme.STANDARD);
-		sparkReporter.config().setTimeStampFormat("mm/dd/yyyy hh:mm:ss a");
-		
-		
 	}
 	
 	
@@ -123,38 +100,10 @@ public class BrowserLaunch {
 		System.out.println(result.getName());
 		if(result.getStatus()==ITestResult.FAILURE)
 		{
-			tests.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,result.getName()+"_error_")).build());			
 			logger.info("Capturing the screenshot since the testcase got failed.");
 		}
 		driver.quit();
 	}
-
-	@AfterSuite(alwaysRun = true)
-	public void endReporter()
-	{		
-		reports.flush();		
-	}
-
 	
-	
-	
-	public static void moveFilesFromFolders(File src, File dest) throws IOException
-	{
-		//copying file from current results to archive and then deleting it from current result
-		File[] files = src.listFiles();
-		 for (File file : files) {
-			 if (file.isDirectory() && dest.isDirectory()) {
-					File newFolder = new File(dest, file.getName());
-		            if (newFolder.exists()) {
-		                throw new IOException("Destination folder already exists: " + newFolder);
-		            }
-		            FileUtils.copyDirectory(file, newFolder);
-		            FileUtils.deleteDirectory(file);
-				} else {
-		            throw new IOException("Source and/or destination is not a directory.");
-		        }				
-
-		 }
-	}
 }
 

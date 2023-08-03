@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\shobhitmishra01\AppData\Local\Temp\testng-eclipse--882941656\testng-customsuite.xml</span>
+                    <span>C:\Users\shobhitmishra01\AppData\Local\Temp\testng-eclipse-1240444688\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,12 +101,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Home" class="method navigator-link" hash-for-method="homepage_element_validation">homepage_element_validation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.SignIn" class="method navigator-link" hash-for-method="invalid_sign_in(abc@gmail.com, password)">invalid_sign_in(abc@gmail.com, password)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.Home" class="method navigator-link" hash-for-method="homepage_search">homepage_search</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.SignIn" class="method navigator-link" hash-for-method="sign_up(Automation, User, Password@123)">sign_up(Automation, User, Password@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -124,21 +124,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.Home</span>
+              <span class="class-name">tests.SignIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="homepage_element_validation">
-                  </a> <!-- homepage_element_validation -->
-                  <span class="method-name">homepage_element_validation</span>
+                  <a name="invalid_sign_in(abc@gmail.com, password)">
+                  </a> <!-- invalid_sign_in(abc@gmail.com, password) -->
+                  <span class="method-name">invalid_sign_in</span>
+                  <span class="parameters">(abc@gmail.com, password)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="homepage_search">
-                  </a> <!-- homepage_search -->
-                  <span class="method-name">homepage_search</span>
+                  <a name="sign_up(Automation, User, Password@123)">
+                  </a> <!-- sign_up(Automation, User, Password@123) -->
+                  <span class="method-name">sign_up</span>
+                  <span class="parameters">(Automation, User, Password@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shobhitmishra01\AppData\Local\Temp\testng-eclipse--882941656\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\shobhitmishra01\AppData\Local\Temp\testng-eclipse-1240444688\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -155,7 +157,7 @@
 &lt;suite parallel=&quot;none&quot; name=&quot;Default suite&quot;&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.Home&quot;/&gt;
+      &lt;class name=&quot;tests.SignIn&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,11 +185,11 @@
               <span class="test-group-name">regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">homepage_element_validation</span>
+                <span class="method-in-group-name">invalid_sign_in</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">homepage_search</span>
+                <span class="method-in-group-name">sign_up</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -195,7 +197,7 @@
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">homepage_element_validation</span>
+                <span class="method-in-group-name">sign_up</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -217,18 +219,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homepage_search')
-data.setCell(0, 2, 'tests.Home')
-data.setCell(0, 3, 2759);
+data.setCell(0, 1, 'sign_up')
+data.setCell(0, 2, 'tests.SignIn')
+data.setCell(0, 3, 7990);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'homepage_element_validation')
-data.setCell(1, 2, 'tests.Home')
-data.setCell(1, 3, 658);
+data.setCell(1, 1, 'invalid_sign_in')
+data.setCell(1, 2, 'tests.SignIn')
+data.setCell(1, 3, 6128);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -254,38 +256,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.Home</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.SignIn</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">startReporter</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">282 ms</span>
+                <span class="method-start">718 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">homepage_element_validation</span>
-                <span class="method-start">6220 ms</span>
+                <span class="method-name">invalid_sign_in(abc@gmail.com, password)</span>
+                <span class="method-start">4562 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">check_tc_status([TestResult name=homepage_element_validation status=SUCCESS method=Home.homepage_element_validation(...)</span>
-                <span class="method-start">6880 ms</span>
+                <span class="method-name">check_tc_status([TestResult name=invalid_sign_in status=SUCCESS method=SignIn.invalid_sign_in(java.lang.String, java...)</span>
+                <span class="method-start">10691 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7203 ms</span>
+                <span class="method-start">11087 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">homepage_search</span>
-                <span class="method-start">11289 ms</span>
+                <span class="method-name">sign_up(Automation, User, Password@123)</span>
+                <span class="method-start">14661 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">check_tc_status([TestResult name=homepage_search status=SUCCESS method=Home.homepage_search()[pri:0, instance:tests....)</span>
-                <span class="method-start">14049 ms</span>
+                <span class="method-name">check_tc_status([TestResult name=sign_up status=SUCCESS method=SignIn.sign_up(java.lang.String, java.lang.String, ja...)</span>
+                <span class="method-start">22652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endReporter</span>
-                <span class="method-start">14410 ms</span>
+                <span class="method-start">23015 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

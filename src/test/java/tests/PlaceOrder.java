@@ -22,11 +22,9 @@ public class PlaceOrder extends BrowserLaunch{
 	@Test(priority = 0,groups = "regression")
 	public void validate_checkout_option() throws IOException, InterruptedException
 	{
-		tests=reports.createTest("TC: Checkout Cart Validation");
-		tests.log(Status.INFO, "<b>In this test we are adding a product and validating checkout page.</b>");
-		PaymentPage payment= new PaymentPage(driver,tests,logger);
-		ShoppingPage shopping = new ShoppingPage(driver,tests,logger);
-		HomePage home = new HomePage(driver, tests,logger);
+		PaymentPage payment= new PaymentPage(driver,logger);
+		ShoppingPage shopping = new ShoppingPage(driver,logger);
+		HomePage home = new HomePage(driver,logger);
 		home.navigate_to_homepage();
 		shopping.yoga_product();
 		payment.validate_checkout();
@@ -35,11 +33,9 @@ public class PlaceOrder extends BrowserLaunch{
 	@Test(dataProvider = "shipping_address",priority = 1,groups = {"smoke","regression"})
 	public void place_an_order(String email, String firstname, String lastname, String address, String city, String state, String zipcode, String phoneno) throws IOException, InterruptedException
 	{
-		tests=reports.createTest("TC: Place an Order Validation");
-		tests.log(Status.INFO, "<b>In this test we are adding a product and purchasing it.</b>");
-		PaymentPage payment= new PaymentPage(driver,tests,logger);
-		ShoppingPage shopping = new ShoppingPage(driver,tests,logger);
-		HomePage home = new HomePage(driver, tests,logger);
+		PaymentPage payment= new PaymentPage(driver,logger);
+		ShoppingPage shopping = new ShoppingPage(driver,logger);
+		HomePage home = new HomePage(driver,logger);
 		home.navigate_to_homepage();
 		shopping.yoga_product();
 		payment.validate_checkout();

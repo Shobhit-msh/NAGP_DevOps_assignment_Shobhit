@@ -20,10 +20,8 @@ public class SignIn extends BrowserLaunch{
 	@Test(dataProvider ="invalid_login_data",groups ="regression")
 	public void invalid_sign_in(String username,String password) throws IOException
 	{
-		tests=reports.createTest("TC: Invalid SignIn Validation");
-		tests.log(Status.INFO, "<b>In this test we are entering credentials and not entering captcha to check the validation</b>");
-		SigninPage obj = new SigninPage(driver,tests,logger);
-		HomePage home = new HomePage(driver, tests,logger);
+		SigninPage obj = new SigninPage(driver,logger);
+		HomePage home = new HomePage(driver, logger);
 		home.navigate_to_homepage();
 		obj.validate_invalid_signin(username,password);
 	}
@@ -33,11 +31,8 @@ public class SignIn extends BrowserLaunch{
 	@Test(dataProvider ="sign_up_data",groups = {"smoke","regression"} )
 	public void sign_up(String firstName,String lastName,String password) throws IOException
 	{
-		System.out.println(reports);
-		tests=reports.createTest("TC: SignUp Validation");
-		tests.log(Status.INFO, "<b> In this test we are creating a new account for a fresh user </b>");
-		SigninPage obj = new SigninPage(driver,tests,logger);
-		HomePage home = new HomePage(driver, tests,logger);
+		SigninPage obj = new SigninPage(driver,logger);
+		HomePage home = new HomePage(driver,logger);
 		home.navigate_to_homepage();
 		obj.create_account(firstName,lastName,password);				
 	}

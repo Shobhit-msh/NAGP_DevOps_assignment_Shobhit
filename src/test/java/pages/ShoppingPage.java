@@ -17,7 +17,6 @@ import util.Utility;
 public class ShoppingPage
 {
 	WebDriver driver;
-	ExtentTest tests;
 	Logger logger;
 	
 	@FindBy(xpath="//a[@class=\"action showcart\"]")
@@ -46,55 +45,42 @@ public class ShoppingPage
 
 	
 	
-	public ShoppingPage(WebDriver driver,ExtentTest tests,Logger logger)
+	public ShoppingPage(WebDriver driver,Logger logger)
 	{
-		this.driver=driver;		
-		this.tests=tests;
+		this.driver=driver;
 		this.logger=logger;
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void empty_cart() throws IOException
 	{
-		tests.info("Navigated to Home Page");
 		logger.info("Navigated to Home Page");
 		cart.click();
-		tests.info("Clicked On Cart Button");
 		logger.info("Clicked On Cart Button");
 		Utility.wait_for_element_to_visible(driver, 10, empty_cart_msg);
 		if(empty_cart_msg.isDisplayed())
 		{
-			tests.info("Empty Cart message is visible");
 			logger.info("Empty Cart message is visible");
-			tests.pass("Empty Cart Validation Passed", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"empty_cart")).build());
 			
 		}
 	}
 	
 	public void yoga_product() throws IOException, InterruptedException
 	{
-		tests.info("Navigated to Home Page");
 		logger.info("Navigated to Home Page");
 		shop_new_yoga_btn.click();
-		tests.info("Clicked on Shop New Yoga Button");
 		logger.info("Clicked on Shop New Yoga Button");
 		Utility.wait_for_element_to_visible(driver, 10, yoga_collection);
-		tests.info("Yoga collection is displayed");
 		logger.info("Yoga collection is displayed");
 		select_size.click();
-		tests.info("Selecting the size for the product");
 		logger.info("Selecting the size for the product");
 		Utility.click_and_wait(select_colour);
-		tests.info("Selecting Colour for the product");
 		logger.info("Selecting Colour for the product");
 		Utility.click_and_wait(add_to_cart_btn);
-		tests.info("Clicked on Add to Cart button.");
 		logger.info("Clicked on Add to Cart button.");
 		Utility.wait_for_element_to_visible(driver, 10, success_add_msg);
 		String msg=success_add_msg.getText();
-		tests.info("Product Added Successfully with message <b>"+msg+"</b>");
 		logger.info("Product Added Successfully with message "+msg+"");
-		tests.pass("Product Added Validation Passed", MediaEntityBuilder.createScreenCaptureFromPath(Utility.getscreenshot(driver,"product_add")).build());
 		
 	}
 

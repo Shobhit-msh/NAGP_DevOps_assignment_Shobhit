@@ -2,65 +2,94 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-01T19:20:56Z" name="Default suite" finished-at="2023-05-01T19:21:10Z" duration-ms="14109">
+  <suite started-at="2023-08-03T17:18:02Z" name="Default suite" finished-at="2023-08-03T17:18:25Z" duration-ms="22684">
     <groups>
       <group name="regression">
-        <method signature="Home.homepage_element_validation()[pri:0, instance:tests.Home@327bcebd]" name="homepage_element_validation" class="tests.Home"/>
-        <method signature="Home.homepage_search()[pri:0, instance:tests.Home@327bcebd]" name="homepage_search" class="tests.Home"/>
+        <method signature="SignIn.invalid_sign_in(java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa]" name="invalid_sign_in" class="tests.SignIn"/>
+        <method signature="SignIn.sign_up(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa]" name="sign_up" class="tests.SignIn"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="Home.homepage_element_validation()[pri:0, instance:tests.Home@327bcebd]" name="homepage_element_validation" class="tests.Home"/>
+        <method signature="SignIn.sign_up(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa]" name="sign_up" class="tests.SignIn"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-05-01T19:20:56Z" name="Default test" finished-at="2023-05-01T19:21:10Z" duration-ms="14109">
-      <class name="tests.Home">
-        <test-method is-config="true" signature="startReporter()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:50:56Z" name="startReporter" finished-at="2023-05-02T00:50:56Z" duration-ms="277" status="PASS">
+    <test started-at="2023-08-03T17:18:02Z" name="Default test" finished-at="2023-08-03T17:18:25Z" duration-ms="22684">
+      <class name="tests.SignIn">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:02Z" name="startReporter" finished-at="2023-08-03T22:48:02Z" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporter -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:50:56Z" name="setup" finished-at="2023-05-02T00:51:02Z" duration-ms="5938" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:02Z" name="setup" finished-at="2023-08-03T22:48:06Z" duration-ms="3844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homepage_element_validation()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:02Z" name="homepage_element_validation" finished-at="2023-05-02T00:51:03Z" duration-ms="658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage_element_validation -->
-        <test-method is-config="true" signature="check_tc_status(org.testng.ITestResult)[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:03Z" name="check_tc_status" finished-at="2023-05-02T00:51:03Z" duration-ms="323" status="PASS">
+        <test-method signature="invalid_sign_in(java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:06Z" name="invalid_sign_in" data-provider="invalid_login_data" finished-at="2023-08-03T22:48:12Z" duration-ms="6128" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homepage_element_validation status=SUCCESS method=Home.homepage_element_validation()[pri:0, instance:tests.Home@327bcebd] output={null}]]]>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_sign_in -->
+        <test-method is-config="true" signature="check_tc_status(org.testng.ITestResult)[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:12Z" name="check_tc_status" finished-at="2023-08-03T22:48:13Z" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_sign_in status=SUCCESS method=SignIn.invalid_sign_in(java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_tc_status -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:03Z" name="setup" finished-at="2023-05-02T00:51:07Z" duration-ms="4086" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:13Z" name="setup" finished-at="2023-08-03T22:48:16Z" duration-ms="3574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homepage_search()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:07Z" name="homepage_search" finished-at="2023-05-02T00:51:10Z" duration-ms="2759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage_search -->
-        <test-method is-config="true" signature="check_tc_status(org.testng.ITestResult)[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:10Z" name="check_tc_status" finished-at="2023-05-02T00:51:10Z" duration-ms="336" status="PASS">
+        <test-method signature="sign_up(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:16Z" name="sign_up" data-provider="sign_up_data" finished-at="2023-08-03T22:48:24Z" duration-ms="7990" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homepage_search status=SUCCESS method=Home.homepage_search()[pri:0, instance:tests.Home@327bcebd] output={null}]]]>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_up -->
+        <test-method is-config="true" signature="check_tc_status(org.testng.ITestResult)[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:24Z" name="check_tc_status" finished-at="2023-08-03T22:48:25Z" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sign_up status=SUCCESS method=SignIn.sign_up(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SignIn@1339e7aa] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_tc_status -->
-        <test-method is-config="true" signature="endReporter()[pri:0, instance:tests.Home@327bcebd]" started-at="2023-05-02T00:51:10Z" name="endReporter" finished-at="2023-05-02T00:51:11Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="endReporter()[pri:0, instance:tests.SignIn@1339e7aa]" started-at="2023-08-03T22:48:25Z" name="endReporter" finished-at="2023-08-03T22:48:25Z" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReporter -->
-      </class> <!-- tests.Home -->
+      </class> <!-- tests.SignIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
