@@ -7,7 +7,6 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <!-- Specify the source directories here -->
-    <sonar.sources>src/main/java</sonar.sources>
     <sonar.tests>src/test/java/tests</sonar.tests>
   </properties>
   
