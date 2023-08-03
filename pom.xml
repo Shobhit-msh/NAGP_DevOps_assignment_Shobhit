@@ -7,9 +7,8 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <!-- Specify the source directories here -->
-    <sonar.sources>src/test/java</sonar.sources>
-    <sonar.java.binaries>target/classes</sonar.java.binaries>
-  <sonar.tests></sonar.tests>
+    <sonar.sources>src/main/java</sonar.sources>
+    <sonar.tests>src/test/java/tests</sonar.tests>
   </properties>
   
   <dependencies><!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
