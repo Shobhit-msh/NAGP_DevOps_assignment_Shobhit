@@ -322,3 +322,189 @@
 2023-08-03 22:49:02,345 - Logger -INFO - Chrome Browser started.
 2023-08-03 22:49:41,950 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
 2023-08-03 22:49:42,085 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:50:45,088 - Logger -INFO - Initializing extent report
+2023-08-05 02:50:46,048 - Logger -INFO - Reading data from property file.
+2023-08-05 02:50:49,046 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:50:55,286 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:50:55,410 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:50:57,524 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 02:50:57,698 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 02:50:57,753 - Logger -INFO - Entering lastname as :User
+2023-08-05 02:50:57,821 - Logger -INFO - Entering Email as : BrUDy@gmail.com
+2023-08-05 02:50:57,911 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 02:50:57,968 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 02:51:00,748 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 02:51:05,486 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:51:10,118 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:51:10,242 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:51:10,243 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:51:10,293 - Logger -INFO - Logo is displayed
+2023-08-05 02:51:10,335 - Logger -INFO - Sign In link is displayed
+2023-08-05 02:51:10,351 - Logger -INFO - Create Account Link is displayed
+2023-08-05 02:51:10,384 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 02:51:10,413 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 02:51:10,432 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 02:51:10,451 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 02:51:10,467 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 02:51:12,047 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:51:14,523 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:51:14,652 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:51:14,652 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:51:14,766 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 02:51:16,982 - Logger -INFO - Clicking on Search Button
+2023-08-05 02:51:17,032 - Logger -INFO - Search Results are Visible for T Shirts</b>"
+2023-08-05 02:52:57,551 - Logger -INFO - Initializing extent report
+2023-08-05 02:52:58,533 - Logger -INFO - Reading data from property file.
+2023-08-05 02:53:01,034 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:53:03,580 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:53:03,710 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:53:06,887 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 02:53:07,093 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 02:53:07,155 - Logger -INFO - Entering lastname as :User
+2023-08-05 02:53:07,218 - Logger -INFO - Entering Email as : dqtvN@gmail.com
+2023-08-05 02:53:07,297 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 02:53:07,358 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 02:53:10,033 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 02:53:14,709 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:53:17,862 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:53:17,993 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:53:17,993 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:53:18,050 - Logger -INFO - Logo is displayed
+2023-08-05 02:53:18,087 - Logger -INFO - Sign In link is displayed
+2023-08-05 02:53:18,121 - Logger -INFO - Create Account Link is displayed
+2023-08-05 02:53:18,158 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 02:53:18,187 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 02:53:18,212 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 02:53:18,229 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 02:53:18,262 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 02:53:19,825 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:53:22,726 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:53:22,859 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:53:22,859 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:53:22,985 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 02:53:25,541 - Logger -INFO - Clicking on Search Button
+2023-08-05 02:53:25,578 - Logger -INFO - Search Results are Visible for T Shirts</b>"
+2023-08-05 02:54:29,438 - Logger -INFO - Initializing extent report
+2023-08-05 02:54:30,367 - Logger -INFO - Reading data from property file.
+2023-08-05 02:54:32,683 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:54:35,627 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:54:35,756 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:54:38,305 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 02:54:38,425 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 02:54:38,480 - Logger -INFO - Entering lastname as :User
+2023-08-05 02:54:38,542 - Logger -INFO - Entering Email as : hlcfi@gmail.com
+2023-08-05 02:54:38,625 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 02:54:38,682 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 02:54:41,575 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 02:54:44,781 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:54:53,598 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:54:53,723 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:54:53,726 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:54:53,791 - Logger -INFO - Logo is displayed
+2023-08-05 02:54:53,831 - Logger -INFO - Sign In link is displayed
+2023-08-05 02:54:53,858 - Logger -INFO - Create Account Link is displayed
+2023-08-05 02:54:53,883 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 02:54:53,908 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 02:54:53,937 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 02:54:53,960 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 02:54:53,992 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 02:54:55,579 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:54:58,147 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:54:58,270 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:54:58,272 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:54:58,389 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 02:55:00,851 - Logger -INFO - Clicking on Search Button
+2023-08-05 02:55:00,892 - Logger -INFO - Search Results are Visible for T Shirts</b>"
+2023-08-05 02:58:26,511 - Logger -INFO - Initializing extent report
+2023-08-05 02:58:27,382 - Logger -INFO - Reading data from property file.
+2023-08-05 02:58:29,835 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:58:33,207 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:58:33,339 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:58:35,240 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 02:58:35,413 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 02:58:35,484 - Logger -INFO - Entering lastname as :User
+2023-08-05 02:58:35,550 - Logger -INFO - Entering Email as : RfWAC@gmail.com
+2023-08-05 02:58:35,633 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 02:58:35,689 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 02:58:38,579 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 02:58:42,235 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:58:44,753 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:58:44,885 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:58:44,885 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:58:44,935 - Logger -INFO - Logo is displayed
+2023-08-05 02:58:44,992 - Logger -INFO - Sign In link is displayed
+2023-08-05 02:58:45,030 - Logger -INFO - Create Account Link is displayed
+2023-08-05 02:58:45,050 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 02:58:45,076 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 02:58:45,108 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 02:58:45,124 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 02:58:45,156 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 02:58:46,670 - Logger -INFO - Chrome Browser started.
+2023-08-05 02:58:49,479 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 02:58:49,618 - Logger -INFO - Maximizing the browser window.
+2023-08-05 02:58:49,620 - Logger -INFO - Navigated to Home Page
+2023-08-05 02:58:49,711 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 02:58:52,255 - Logger -INFO - Clicking on Search Button
+2023-08-05 02:58:52,320 - Logger -INFO - Search Results are Visible for T Shirts</b>"
+2023-08-05 03:06:57,115 - Logger -INFO - Initializing extent report
+2023-08-05 03:06:58,071 - Logger -INFO - Reading data from property file.
+2023-08-05 03:07:01,044 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:07:03,414 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:07:03,552 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:07:06,038 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 03:07:06,205 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 03:07:06,282 - Logger -INFO - Entering lastname as :User
+2023-08-05 03:07:06,349 - Logger -INFO - Entering Email as : onzey@gmail.com
+2023-08-05 03:07:06,432 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 03:07:06,491 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 03:07:08,909 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 03:07:14,414 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:07:16,680 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:07:16,808 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:07:16,810 - Logger -INFO - Navigated to Home Page
+2023-08-05 03:07:16,871 - Logger -INFO - Logo is displayed
+2023-08-05 03:07:16,915 - Logger -INFO - Sign In link is displayed
+2023-08-05 03:07:16,953 - Logger -INFO - Create Account Link is displayed
+2023-08-05 03:07:16,982 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 03:07:16,997 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 03:07:17,035 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 03:07:17,060 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 03:07:17,091 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 03:07:18,644 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:07:21,306 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:07:21,436 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:07:21,439 - Logger -INFO - Navigated to Home Page
+2023-08-05 03:07:21,541 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 03:07:24,043 - Logger -INFO - Clicking on Search Button
+2023-08-05 03:07:24,076 - Logger -INFO - Search Results are Visible for T Shirts</b>"
+2023-08-05 03:08:50,117 - Logger -INFO - Initializing extent report
+2023-08-05 03:08:51,016 - Logger -INFO - Reading data from property file.
+2023-08-05 03:08:53,800 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:08:59,404 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:08:59,534 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:09:01,644 - Logger -INFO - CLicked on Create an account link.
+2023-08-05 03:09:01,808 - Logger -INFO - Entering firstname as :Automation
+2023-08-05 03:09:01,888 - Logger -INFO - Entering lastname as :User
+2023-08-05 03:09:01,952 - Logger -INFO - Entering Email as : qnxVi@gmail.com
+2023-08-05 03:09:02,030 - Logger -INFO - Entering Password as : Password@123
+2023-08-05 03:09:02,093 - Logger -INFO - Entering Confirm Password as :Password@123
+2023-08-05 03:09:04,873 - Logger -INFO - Clicked on Create an Account button
+2023-08-05 03:09:08,958 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:09:11,983 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:09:12,117 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:09:12,118 - Logger -INFO - Navigated to Home Page
+2023-08-05 03:09:12,195 - Logger -INFO - Logo is displayed
+2023-08-05 03:09:12,241 - Logger -INFO - Sign In link is displayed
+2023-08-05 03:09:12,272 - Logger -INFO - Create Account Link is displayed
+2023-08-05 03:09:12,283 - Logger -INFO - Dropdown for Women Section is displayed
+2023-08-05 03:09:12,315 - Logger -INFO - Dropdown for Men Section is displayed
+2023-08-05 03:09:12,341 - Logger -INFO - Dropdown for Gear Section is displayed
+2023-08-05 03:09:12,364 - Logger -INFO - Dropdown for Training Section is displayed
+2023-08-05 03:09:12,393 - Logger -INFO - Dropdown for Sale Section is displayed
+2023-08-05 03:09:13,900 - Logger -INFO - Chrome Browser started.
+2023-08-05 03:09:16,761 - Logger -INFO - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-05 03:09:16,899 - Logger -INFO - Maximizing the browser window.
+2023-08-05 03:09:16,901 - Logger -INFO - Navigated to Home Page
+2023-08-05 03:09:17,003 - Logger -INFO - Entering T Shirts in Search Box on Homepage.
+2023-08-05 03:09:19,755 - Logger -INFO - Clicking on Search Button
+2023-08-05 03:09:19,793 - Logger -INFO - Search Results are Visible for T Shirts</b>"

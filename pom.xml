@@ -3,12 +3,19 @@
   <groupId>Selenium_NAGP_Project</groupId>
   <artifactId>Selenium_NAGP_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
 <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <sonar.coverage.jacoco.xmlReportPaths>target/jacoco-report/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     <!-- Specify the source directories here -->
-    <sonar.tests>src/test/java/tests</sonar.tests>
-  </properties>
+    <sonar.java.binaries>target/classes</sonar.java.binaries>
+    <sonar.tests>src/test/java</sonar.tests>
+    <sonar.verbose>true</sonar.verbose>
+    <sonar.log.level>true</sonar.log.level>
+</properties>
+
+
   
   <dependencies><!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -69,45 +76,89 @@
 
 
 <build>
-	<plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M5</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-		<plugin>
-  <groupId>org.jacoco</groupId>
-  <artifactId>jacoco-maven-plugin</artifactId>
-  <version>0.8.6</version>
-  <executions>
-  	<execution>
-      	<id>prepare-agent</id>
-            <goals>
-             <goal>prepare-agent</goal>
-            </goals>
-      </execution>
-      <execution>
-            <id>report</id>
-            <phase>test</phase>
-               <goals>
-               <goal>report</goal>
-               </goals>
-        </execution>
-    </executions>
- </plugin>
-</plugins>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+            <configuration>
+                <!--<suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>-->
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+            <executions>
+                <execution>
+                    <id>prepare-agent</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>report</id>
+                    <phase>report-package</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>post-unit-test</id>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                    <configuration>
+                        <dataFile>target/jacoco.exec</dataFile>
+                        <outputDirectory>target/jacoco-report</outputDirectory>
+                    </configuration>
+                </execution>
+            </executions>
+            <configuration>
+				<systemPropertyVariables>
+					<jacoco-agent-destfile>target/jacoco.exec</jacoco-agent-destfile>
+				</systemPropertyVariables>
+			</configuration>
+        </plugin>
+    </plugins>
 </build>
 
 
+<profiles>
+	<profile>
+		<id>coverage</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.jacoco</groupId>
+  					<artifactId>jacoco-maven-plugin</artifactId>
+  					<version>0.8.6</version>
+  					<executions>
+						  <execution>
+							  <id>prepare-agent</id>
+            					<goals>
+             						<goal>prepare-agent</goal>
+            					</goals>
+						  </execution>
+						  <execution>
+            					<id>report</id>
+               					<goals>
+               						<goal>report-aggregate</goal>
+               					</goals>
+        				</execution>
+					  </executions>
+				</plugin>
 
-
-
-
+			</plugins>
+		</build>
+	</profile>
+</profiles>
 
 
 
