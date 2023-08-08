@@ -1,0 +1,73 @@
+    pipeline {
+        agent any
+        tools {
+            maven 'maven 3'
+        }
+    
+        stages {
+            stage('Checkout') {
+                steps {
+                    //In this step we will be chaking out th ecode from our GitHub repo
+                    bat 'echo checkout stage'
+                    git 'https://github.com/Shobhit-msh/NAGP_DevOps_assignment_Shobhit.git'
+                }
+            }
+        
+            stage('Build') {
+                steps {
+                    // In this step we are building our project
+                    bat 'mvn clean'
+                }
+            }
+        
+            stage('Test') {
+                steps {
+                    // In this step we will be running all our tests through maven
+                    bat 'mvn test'
+                }
+            }
+        
+            stage('SonarQube Analysis') {
+                steps {
+                    // Running SonarScanner for our project
+                    script {
+                        withSonarQubeEnv() {
+                            bat 'mvn sonar:sonar'
+                        }
+                    }
+                }
+            }
+        
+            stage('Publish artifact') {
+        steps {
+            echo "stage"
+            rtMavenDeployer(
+                id: 'deployer',
+                serverId: 'nagpdevops@artifactory',
+                releaseRepo: 'nagprepository',
+                snapshotRepo: 'nagprepository'
+            )
+
+            rtMavenRun(
+                pom: 'pom.xml',
+                goals: 'clean deploy',
+                deployerId: 'deployer'
+            )
+
+            rtPublishBuildInfo(
+                serverId: 'nagpdevops@artifactory'
+            )
+        }
+    }
+      }
+    
+        post {
+           
+            success {
+                echo 'Build succeeded!'
+            }
+            failure {
+                echo 'Build failed!'
+            }
+        }
+    }
