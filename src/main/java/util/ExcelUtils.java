@@ -19,7 +19,7 @@ public class ExcelUtils {
 			sh = wb.getSheet(sheetname);
 		} 
 		catch (IOException e) {		
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 	}
@@ -32,7 +32,7 @@ public class ExcelUtils {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
-			e.printStackTrace();
+			
 		};
 		return rowCount;
 	}
@@ -45,7 +45,7 @@ public class ExcelUtils {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
-			e.printStackTrace();
+			
 		};
 		return columnCount;
 	}
@@ -65,7 +65,7 @@ public class ExcelUtils {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
-			e.printStackTrace();
+			
 		};
 		return cellData;
 	}
