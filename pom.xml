@@ -10,7 +10,7 @@
     <sonar.coverage.jacoco.xmlReportPaths>target/jacoco-report/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     <!-- Specify the source directories here -->
     <sonar.java.binaries>target/classes</sonar.java.binaries>
-    <sonar.tests>src/test/java</sonar.tests>
+    <!--<sonar.tests>src/test/java</sonar.tests>-->
     <sonar.verbose>true</sonar.verbose>
     <sonar.log.level>true</sonar.log.level>
 </properties>
@@ -62,7 +62,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
-    <scope>test</scope>
+    <!--<scope>test</scope>-->
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
 <dependency>
@@ -70,7 +70,6 @@
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.9.1.2184</version>
 </dependency>
-
 
 </dependencies>
 
@@ -159,9 +158,6 @@
 		</build>
 	</profile>
 </profiles>
-
-
-
 
 
 </project>

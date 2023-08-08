@@ -1,6 +1,7 @@
 package pages;
 
 import java.io.IOException;
+import java.security.SecureRandom;
 import java.util.Random;
 
 import org.apache.log4j.Logger;
@@ -66,6 +67,8 @@ public class SigninPage
 	@FindBy(xpath="(//a[contains(text(),'Sign Out')])[1]")
 	WebElement sign_out;
 	
+	static SecureRandom rand = new SecureRandom();
+	
 	
 	
 	public SigninPage(WebDriver driver,Logger logger)
@@ -121,12 +124,15 @@ public class SigninPage
 	public static String generateRandomString() {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         StringBuilder sb = new StringBuilder(5);
-        Random rand = new Random();
+        
 
         for (int i = 0; i < 5; i++) {
-            int randomIndex = rand.nextInt(characters.length());
-            char randomChar = characters.charAt(randomIndex);
+
+        synchronized (rand) {
+            int randomIndex = rand.nextInt(characters.length());       
+            char randomChar = characters.charAt(randomIndex);      
             sb.append(randomChar);
+        }
         }
 
         return sb.toString();

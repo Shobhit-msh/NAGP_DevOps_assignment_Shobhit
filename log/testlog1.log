@@ -508,3 +508,80 @@
 2023-08-05 03:09:17,003 [main] INFO Logger - Entering T Shirts in Search Box on Homepage.
 2023-08-05 03:09:19,755 [main] INFO Logger - Clicking on Search Button
 2023-08-05 03:09:19,793 [main] INFO Logger - Search Results are Visible for T Shirts</b>"
+2023-08-07 18:26:22,693 [main] INFO Logger - Initializing extent report
+2023-08-07 18:26:23,654 [main] INFO Logger - Reading data from property file.
+2023-08-07 18:26:27,560 [main] INFO Logger - Chrome Browser started.
+2023-08-07 18:26:33,137 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-07 18:26:33,273 [main] INFO Logger - Maximizing the browser window.
+2023-08-07 18:26:34,499 [main] INFO Logger - Navigating to Sign In Page
+2023-08-07 18:26:35,633 [main] INFO Logger - Clicked On sign in link.
+2023-08-07 18:26:35,775 [main] INFO Logger - Entering email as:abc@gmail.com
+2023-08-07 18:26:35,861 [main] INFO Logger - Entering password as:password
+2023-08-07 18:26:37,566 [main] INFO Logger - Clicking on Sign in button
+2023-08-07 18:26:47,620 [main] INFO Logger - Capturing the screenshot since the testcase got failed.
+2023-08-07 18:26:48,942 [main] INFO Logger - Chrome Browser started.
+2023-08-07 18:26:51,145 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-07 18:26:51,273 [main] INFO Logger - Maximizing the browser window.
+2023-08-07 18:26:53,893 [main] INFO Logger - CLicked on Create an account link.
+2023-08-07 18:26:54,083 [main] INFO Logger - Entering firstname as :Automation
+2023-08-07 18:26:54,146 [main] INFO Logger - Entering lastname as :User
+2023-08-07 18:26:54,215 [main] INFO Logger - Entering Email as : xIGGN@gmail.com
+2023-08-07 18:26:54,302 [main] INFO Logger - Entering Password as : Password@123
+2023-08-07 18:26:54,355 [main] INFO Logger - Entering Confirm Password as :Password@123
+2023-08-07 18:26:57,364 [main] INFO Logger - Clicked on Create an Account button
+2023-08-08 22:36:24,959 [main] INFO Logger - Initializing extent report
+2023-08-08 22:36:25,458 [main] INFO Logger - Reading data from property file.
+2023-08-08 22:36:26,261 [main] INFO Logger - Reading data from property file.
+2023-08-08 22:36:26,440 [main] INFO Logger - Reading data from property file.
+2023-08-08 22:39:16,086 [main] INFO Logger - Initializing extent report
+2023-08-08 22:39:16,596 [main] INFO Logger - Reading data from property file.
+2023-08-08 22:39:20,913 [main] INFO Logger - Chrome Browser started.
+2023-08-08 22:39:28,052 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-08 22:39:28,193 [main] INFO Logger - Maximizing the browser window.
+2023-08-08 22:39:29,495 [main] INFO Logger - Navigating to Sign In Page
+2023-08-08 22:39:30,854 [main] INFO Logger - Clicked On sign in link.
+2023-08-08 22:39:30,990 [main] INFO Logger - Entering email as:abc@gmail.com
+2023-08-08 22:39:31,092 [main] INFO Logger - Entering password as:password
+2023-08-08 22:39:33,118 [main] INFO Logger - Clicking on Sign in button
+2023-08-08 22:39:43,219 [main] INFO Logger - Capturing the screenshot since the testcase got failed.
+2023-08-08 22:39:44,714 [main] INFO Logger - Chrome Browser started.
+2023-08-08 22:39:48,059 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-08 22:39:48,177 [main] INFO Logger - Maximizing the browser window.
+2023-08-08 22:39:53,774 [main] INFO Logger - CLicked on Create an account link.
+2023-08-08 22:39:53,959 [main] INFO Logger - Entering firstname as :Automation
+2023-08-08 22:39:54,056 [main] INFO Logger - Entering lastname as :User
+2023-08-08 22:39:54,156 [main] INFO Logger - Entering Email as : OTnfo@gmail.com
+2023-08-08 22:39:54,313 [main] INFO Logger - Entering Password as : Password@123
+2023-08-08 22:39:54,432 [main] INFO Logger - Entering Confirm Password as :Password@123
+2023-08-08 22:39:59,084 [main] INFO Logger - Clicked on Create an Account button
+2023-08-08 22:44:07,751 [main] INFO Logger - Initializing extent report
+2023-08-08 22:44:08,866 [main] INFO Logger - Reading data from property file.
+2023-08-08 22:44:12,083 [main] INFO Logger - Chrome Browser started.
+2023-08-08 22:44:16,775 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-08 22:44:16,923 [main] INFO Logger - Maximizing the browser window.
+2023-08-08 22:44:31,104 [main] INFO Logger - CLicked on Create an account link.
+2023-08-08 22:44:31,336 [main] INFO Logger - Entering firstname as :Automation
+2023-08-08 22:44:31,426 [main] INFO Logger - Entering lastname as :User
+2023-08-08 22:44:31,525 [main] INFO Logger - Entering Email as : TvQDX@gmail.com
+2023-08-08 22:44:31,670 [main] INFO Logger - Entering Password as : Password@123
+2023-08-08 22:44:31,781 [main] INFO Logger - Entering Confirm Password as :Password@123
+2023-08-08 22:44:38,503 [main] INFO Logger - Clicked on Create an Account button
+2023-08-08 22:44:43,199 [main] INFO Logger - Chrome Browser started.
+2023-08-08 22:44:55,559 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-08 22:44:55,694 [main] INFO Logger - Maximizing the browser window.
+2023-08-08 22:44:55,697 [main] INFO Logger - Navigated to Home Page
+2023-08-08 22:44:55,749 [main] INFO Logger - Logo is displayed
+2023-08-08 22:44:55,787 [main] INFO Logger - Sign In link is displayed
+2023-08-08 22:44:55,826 [main] INFO Logger - Create Account Link is displayed
+2023-08-08 22:44:55,870 [main] INFO Logger - Dropdown for Women Section is displayed
+2023-08-08 22:44:55,906 [main] INFO Logger - Dropdown for Men Section is displayed
+2023-08-08 22:44:55,940 [main] INFO Logger - Dropdown for Gear Section is displayed
+2023-08-08 22:44:55,987 [main] INFO Logger - Dropdown for Training Section is displayed
+2023-08-08 22:44:56,023 [main] INFO Logger - Dropdown for Sale Section is displayed
+2023-08-08 22:44:57,178 [main] INFO Logger - Chrome Browser started.
+2023-08-08 22:45:10,985 [main] INFO Logger - Navigated tohttps://magento.softwaretestingboard.com/
+2023-08-08 22:45:11,119 [main] INFO Logger - Maximizing the browser window.
+2023-08-08 22:45:11,121 [main] INFO Logger - Navigated to Home Page
+2023-08-08 22:45:11,236 [main] INFO Logger - Entering T Shirts in Search Box on Homepage.
+2023-08-08 22:45:18,451 [main] INFO Logger - Clicking on Search Button
+2023-08-08 22:45:18,482 [main] INFO Logger - Search Results are Visible for T Shirts</b>"

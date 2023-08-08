@@ -89,8 +89,11 @@ public class BrowserLaunch {
 			driver.get(prop.getProperty("testurl"));
 			logger.info("Navigated to"+prop.getProperty("testurl"));
 		}
+		if(driver!=null)
+		{
 		driver.manage().window().maximize();
 		logger.info("Maximizing the browser window.");
+		}
 			
 	}
 	
